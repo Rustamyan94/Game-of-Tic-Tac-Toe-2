@@ -25,6 +25,18 @@ function changePlayer(span) {
         alert("Congratulations, winner is " + player + ", try again")
         location.reload()
     }
+    else if(span11.innerHTML === player && span21.innerHTML === player && span31.innerHTML === player) {
+        alert("Congratulations, winner is " + player + ", try again")
+        location.reload()
+    }
+    else if(span12.innerHTML === player && span22.innerHTML === player && span32.innerHTML === player) {
+        alert("Congratulations, winner is " + player + ", try again")
+        location.reload()
+    }
+    else if(span13.innerHTML === player && span23.innerHTML === player && span33.innerHTML === player) {
+        alert("Congratulations, winner is " + player + ", try again")
+        location.reload()
+    }
     else if(span11.innerHTML === player && span22.innerHTML === player && span33.innerHTML === player) {
         alert("Congratulations, winner is " + player + ", try again")
         location.reload()
